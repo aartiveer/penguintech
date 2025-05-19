@@ -1,0 +1,22 @@
+.vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: #e7bbd4;
+    padding: 20px;
+}
+
+.vision h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.vision-img {
+    width: 30%;
+    height: 100%;
+    border-radius: 50px;
+    
+}

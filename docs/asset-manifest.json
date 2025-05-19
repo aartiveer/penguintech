@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/myFirst-React-App/static/css/main.298134a5.css",
+    "main.js": "/myFirst-React-App/static/js/main.a57783d3.js",
+    "static/media/line.jpg": "/myFirst-React-App/static/media/line.faf2107908fc42354c9c.jpg",
+    "static/media/Women.png": "/myFirst-React-App/static/media/Women.d109ac9a8abac1039eaf.png",
+    "static/media/penguin.jpg": "/myFirst-React-App/static/media/penguin.874ba633e9d13236490b.jpg",
+    "static/media/VisionSection.webp": "/myFirst-React-App/static/media/VisionSection.84be6db76ff7f33874f5.webp",
+    "index.html": "/myFirst-React-App/index.html",
+    "main.298134a5.css.map": "/myFirst-React-App/static/css/main.298134a5.css.map",
+    "main.a57783d3.js.map": "/myFirst-React-App/static/js/main.a57783d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.298134a5.css",
+    "static/js/main.a57783d3.js"
+  ]
+}

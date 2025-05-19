@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+}
+
+.penguin-logo {
+    width: 65px;  /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    margin-right: 1%;
+    margin-left: 20%;
+    margin-top: 2%;
+
+}
+
+.flexSB {
+    /*display:flex;*/
+    justify-content: space-between; 
+    z-index: 1;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: orange;  /* Color when hovered */
+}
