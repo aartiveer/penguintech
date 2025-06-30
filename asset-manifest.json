@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/penguintech/static/css/main.9d7ce985.css",
-    "main.js": "/penguintech/static/js/main.e700d83c.js",
+    "main.js": "/penguintech/static/js/main.79af8e50.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
     "static/media/penguin.jpg": "/penguintech/static/media/penguin.874ba633e9d13236490b.jpg",
     "static/media/VisionSection.webp": "/penguintech/static/media/VisionSection.84be6db76ff7f33874f5.webp",
     "index.html": "/penguintech/index.html",
     "main.9d7ce985.css.map": "/penguintech/static/css/main.9d7ce985.css.map",
-    "main.e700d83c.js.map": "/penguintech/static/js/main.e700d83c.js.map"
+    "main.79af8e50.js.map": "/penguintech/static/js/main.79af8e50.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7ce985.css",
-    "static/js/main.e700d83c.js"
+    "static/js/main.79af8e50.js"
   ]
 }
