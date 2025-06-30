@@ -4,10 +4,12 @@ import Header from './components/Header';
 import Home from './pages/Home';
 
 function App() {
+  const basename = process.env.NODE_ENV === 'production' ? '/penguintech' : '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Header />
-        <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
     </Router>
