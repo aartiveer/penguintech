@@ -1,17 +1,23 @@
 {
   "files": {
-    "main.css": "/penguintech/static/css/main.2f5f686e.css",
-    "main.js": "/penguintech/static/js/main.0ca2da94.js",
+    "main.css": "/penguintech/static/css/main.7d70df31.css",
+    "main.js": "/penguintech/static/js/main.0652f605.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
+    "static/media/Service6thimg.png": "/penguintech/static/media/Service6thimg.1824d7739259a104ca8a.png",
+    "static/media/Service3rdimg.png": "/penguintech/static/media/Service3rdimg.3e3260ca8a18085ee24d.png",
+    "static/media/Service1stimg.png": "/penguintech/static/media/Service1stimg.c6d8262c4bdfac0a32e8.png",
+    "static/media/Service2ndimg.png": "/penguintech/static/media/Service2ndimg.5841ccf0c2aa3e24b5b8.png",
+    "static/media/Service5thimg.png": "/penguintech/static/media/Service5thimg.0bc3ab705d3c603cdb77.png",
     "static/media/penguin.jpg": "/penguintech/static/media/penguin.874ba633e9d13236490b.jpg",
+    "static/media/Service4thimg.png": "/penguintech/static/media/Service4thimg.c9248252109ca9e9c805.png",
     "static/media/VisionSection.webp": "/penguintech/static/media/VisionSection.84be6db76ff7f33874f5.webp",
     "index.html": "/penguintech/index.html",
-    "main.2f5f686e.css.map": "/penguintech/static/css/main.2f5f686e.css.map",
-    "main.0ca2da94.js.map": "/penguintech/static/js/main.0ca2da94.js.map"
+    "main.7d70df31.css.map": "/penguintech/static/css/main.7d70df31.css.map",
+    "main.0652f605.js.map": "/penguintech/static/js/main.0652f605.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f5f686e.css",
-    "static/js/main.0ca2da94.js"
+    "static/css/main.7d70df31.css",
+    "static/js/main.0652f605.js"
   ]
 }
