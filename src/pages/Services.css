@@ -1,0 +1,43 @@
+.container1 {
+    text-align: center;
+    justify-content: center;
+    /* margin: 50px; */
+    
+}
+
+
+.heading {
+    text-align: center;
+}
+.container2 {
+    justify-content: center;
+    display: grid;
+    gap: 10px 10px;
+    grid-template-columns: repeat(3, 350px);
+    
+}
+
+.White-Box {
+    /* justify-content: center; */
+    text-align: center;
+    background-color: wheat;
+    height: 250px;
+    width: 350px; 
+}
+.White-Box img, .Black-Box img {
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+.Black-Box {
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 250px;
+    width: 350px;
+}
+
+

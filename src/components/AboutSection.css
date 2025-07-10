@@ -1,5 +1,5 @@
 .about-section {
-  background-color: #9ed3ea;
+  background-color: whitesmoke;
   padding: 80px 40px;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .benefit-card {
-  background-color: rgb(223, 236, 177);
+  background-color: white;
   padding: 20px 25px;
   border-radius: 10px;
   display: flex;
@@ -31,6 +31,7 @@
   align-items: flex-start;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
   height: fit-content;
+  
 }
 
 .benefit-icon {
