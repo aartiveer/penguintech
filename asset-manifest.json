@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/penguintech/static/css/main.7d70df31.css",
-    "main.js": "/penguintech/static/js/main.0652f605.js",
+    "main.css": "/penguintech/static/css/main.abc093cd.css",
+    "main.js": "/penguintech/static/js/main.00d8e959.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
     "static/media/Service6thimg.png": "/penguintech/static/media/Service6thimg.1824d7739259a104ca8a.png",
@@ -12,12 +12,15 @@
     "static/media/penguin.jpg": "/penguintech/static/media/penguin.874ba633e9d13236490b.jpg",
     "static/media/Service4thimg.png": "/penguintech/static/media/Service4thimg.c9248252109ca9e9c805.png",
     "static/media/VisionSection.webp": "/penguintech/static/media/VisionSection.84be6db76ff7f33874f5.webp",
+    "static/media/Linux_Foundation_logo.webp": "/penguintech/static/media/Linux_Foundation_logo.49918f4f8632ca85baa9.webp",
+    "static/media/bash.webp": "/penguintech/static/media/bash.4f2d005239fabb288555.webp",
+    "static/media/Yocto_logo.webp": "/penguintech/static/media/Yocto_logo.9b1e1126f353e1db02e4.webp",
     "index.html": "/penguintech/index.html",
-    "main.7d70df31.css.map": "/penguintech/static/css/main.7d70df31.css.map",
-    "main.0652f605.js.map": "/penguintech/static/js/main.0652f605.js.map"
+    "main.abc093cd.css.map": "/penguintech/static/css/main.abc093cd.css.map",
+    "main.00d8e959.js.map": "/penguintech/static/js/main.00d8e959.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d70df31.css",
-    "static/js/main.0652f605.js"
+    "static/css/main.abc093cd.css",
+    "static/js/main.00d8e959.js"
   ]
 }
