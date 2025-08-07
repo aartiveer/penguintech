@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/penguintech/static/css/main.72631d11.css",
-    "main.js": "/penguintech/static/js/main.6cc00d0e.js",
+    "main.css": "/penguintech/static/css/main.b4a43406.css",
+    "main.js": "/penguintech/static/js/main.44c06b85.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
+    "static/media/YoctoImage.png": "/penguintech/static/media/YoctoImage.e558426674d4bfed60a5.png",
     "static/media/Service6thimg.png": "/penguintech/static/media/Service6thimg.1824d7739259a104ca8a.png",
     "static/media/Service3rdimg.png": "/penguintech/static/media/Service3rdimg.3e3260ca8a18085ee24d.png",
     "static/media/Service1stimg.png": "/penguintech/static/media/Service1stimg.c6d8262c4bdfac0a32e8.png",
     "static/media/Service2ndimg.png": "/penguintech/static/media/Service2ndimg.5841ccf0c2aa3e24b5b8.png",
+    "static/media/dockerimg.png": "/penguintech/static/media/dockerimg.8ad0f8cf4ed8d5252fa4.png",
     "static/media/Service5thimg.png": "/penguintech/static/media/Service5thimg.0bc3ab705d3c603cdb77.png",
     "static/media/penguin.jpg": "/penguintech/static/media/penguin.874ba633e9d13236490b.jpg",
     "static/media/Service4thimg.png": "/penguintech/static/media/Service4thimg.c9248252109ca9e9c805.png",
@@ -16,11 +18,11 @@
     "static/media/bash.webp": "/penguintech/static/media/bash.4f2d005239fabb288555.webp",
     "static/media/Yocto_logo.webp": "/penguintech/static/media/Yocto_logo.9b1e1126f353e1db02e4.webp",
     "index.html": "/penguintech/index.html",
-    "main.72631d11.css.map": "/penguintech/static/css/main.72631d11.css.map",
-    "main.6cc00d0e.js.map": "/penguintech/static/js/main.6cc00d0e.js.map"
+    "main.b4a43406.css.map": "/penguintech/static/css/main.b4a43406.css.map",
+    "main.44c06b85.js.map": "/penguintech/static/js/main.44c06b85.js.map"
   },
   "entrypoints": [
-    "static/css/main.72631d11.css",
-    "static/js/main.6cc00d0e.js"
+    "static/css/main.b4a43406.css",
+    "static/js/main.44c06b85.js"
   ]
 }
