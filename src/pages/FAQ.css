@@ -1,0 +1,48 @@
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.faq-container h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.faq-item {
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 0; /* remove internal padding to keep it tight */
+}
+
+.faq-question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.faq-question h2 {
+  font-size: 18px;
+  margin: 0;
+  flex: 1; /* ensures arrow stays right, no extra gap */
+}
+
+.arrow {
+  font-size: 40px;
+  margin-left: 5px; /* reduce space between text and arrow */
+  transition: transform 0.3s ease;
+}
+
+.arrow.open {
+  transform: rotate(90deg);
+}
+
+.faq-answer {
+  padding: 0 15px 15px 15px;
+  color: #444;
+}

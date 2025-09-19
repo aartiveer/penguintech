@@ -1,4 +1,19 @@
 .expertise-section {
+    text-align: center;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.expertise-section h1 {
+    margin-bottom: 30px;
+}
+
+.expertise-logos {
     display: flex;
     justify-content: center;
+    gap: 20px;
+}
+
+.expertise-logos img {
+    height: 200px;
 }

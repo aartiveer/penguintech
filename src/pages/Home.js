@@ -4,7 +4,7 @@ import HeroSection from  "../components/HeroSection";
 import AboutSection from '../components/AboutSection';
 import ExpertiseSection from '../components/ExpertiseSection';
 import VisionSection from '../components/VisionSection';
-import FooterSection from '../components/FooterSection';
+import OurMission from '../components/OurMission';
 
 
 
@@ -14,7 +14,7 @@ const Home = () => (
         <AboutSection />
         <ExpertiseSection />
         <VisionSection />
-        <FooterSection />        
+        <OurMission />       
     </div>
 );
 

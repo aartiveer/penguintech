@@ -1,10 +1,9 @@
 .contact {
-  background-color: black;
-  color: white;
+  background-color: rgb(41, 36, 36);
   padding: 10px;
   justify-content: space-between;
   flex-wrap: wrap;
-  text-align: center; 
+  text-align: center;
 }
 
 .contact h1 {
@@ -39,41 +38,54 @@
 .box h4 {
   color: #f29e52;
   margin-bottom: 5px;
-
-  
 }
 
 
 .contact-form {
-text-align: center;
+  text-align: center;
 }
 
 .contact-form button:hover {
   background-color: #f29e52;
   color: black;
+
 }
 
 .inputField {
   height: 30px;
   width: 250px;
-  
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: #f29e52; 
 }
 
 .EmailBox {
   height: 30px;
   width: 500px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: #f29e52;
 }
 
 .SubjectBox {
   height: 30px;
   width: 500px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: #f29e52;
 }
 
 .Message-Box {
   width: 500px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: #f29e52;
 }
 .SubmitButton {
   height: 30px;
   width: 100px;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  border-color: #f29e52;
 }
 

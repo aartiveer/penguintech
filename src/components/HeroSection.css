@@ -36,3 +36,59 @@
   font-size: 16px;
   margin-top: 20px;
 }
+
+
+.shape {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+/* Square */
+.square {
+  width: 80px;
+  height: 80px;
+  background: #f4b400;
+  top: 10%;
+  left: 5%;
+  animation: floatSquare 6s infinite ease-in-out;
+}
+
+/* Circle */
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #4285f4;
+  border-radius: 50%;
+  top: 70%;
+  left: 15%;
+  animation: floatCircle 8s infinite linear;
+}
+
+/* Rectangle */
+.rectangle {
+  width: 200px;
+  height: 120px;
+  background: #34a853;
+  bottom: 30%;
+  right: 40%;
+  animation: floatRectangle 7s infinite ease-in-out;
+}
+
+/* ================= Animations ================= */
+@keyframes floatSquare {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-30px) rotate(20deg); }
+}
+
+@keyframes floatCircle {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes floatRectangle {
+  0% { transform: translateY(20) rotate(100deg); }
+  50% { transform: translateY(40px) rotate(180deg); }
+  100% { transform: translateY(10) rotate(60deg); }
+}

@@ -1,21 +1,23 @@
-import React from 'react';
-import './HeroSection.css';
-import women from '../resources/Women.png';
+import React from 'react'; 
+import './HeroSection.css'; 
+import women from '../resources/Women.png'; 
 
-const HeroSection = () => (
-  <section className="hero">
-    <div className="hero-content">
-      <h1>Empowering Tech Mastery</h1>
-      <p>Your Gateway to Embedded</p>
-      <button className="btn">Get Started →</button>
-    </div>
-    <img
-      src={women}
-      loading="lazy"
-      alt="Working Woman"
-      className="hero-img"
-    />
-  </section>
-);
+const HeroSection = () => ( 
+  <section className="hero"> 
+    
+    <div className="hero-content"> 
+      <h1>Empowering Tech Mastery</h1> 
+      <p>Your Gateway to Embedded</p> 
+      <button className="btn">Get Started →</button> 
+    </div> 
+      
+      <img src={women} loading="lazy" alt="Working Woman" className="hero-img" /> 
 
-export default HeroSection;
+        {/* Animated Shapes */}
+      <div className="shape square"></div>
+      <div className="shape circle"></div>
+      <div className="shape rectangle"></div>
+  </section>  
+      
+    ); 
+    export default HeroSection;
