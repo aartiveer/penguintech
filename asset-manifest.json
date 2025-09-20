@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/penguintech/static/css/main.769f26f6.css",
-    "main.js": "/penguintech/static/js/main.95549ef7.js",
+    "main.css": "/penguintech/static/css/main.aad1091b.css",
+    "main.js": "/penguintech/static/js/main.b55f41d4.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
     "static/media/ST.png": "/penguintech/static/media/ST.d28fb2840ca5190217f2.png",
@@ -14,19 +14,19 @@
     "static/media/NXP.png": "/penguintech/static/media/NXP.55abbf5656061ee4c45d.png",
     "static/media/dockerimg.png": "/penguintech/static/media/dockerimg.8ad0f8cf4ed8d5252fa4.png",
     "static/media/Service5thimg.png": "/penguintech/static/media/Service5thimg.0bc3ab705d3c603cdb77.png",
+    "static/media/penguin.png": "/penguintech/static/media/penguin.0a23fbba6c656a9cf2e0.png",
     "static/media/variscite.png": "/penguintech/static/media/variscite.9f824b2f1b039da72cf5.png",
-    "static/media/penguin.jpg": "/penguintech/static/media/penguin.874ba633e9d13236490b.jpg",
     "static/media/Service4thimg.png": "/penguintech/static/media/Service4thimg.c9248252109ca9e9c805.png",
     "static/media/VisionSection.webp": "/penguintech/static/media/VisionSection.84be6db76ff7f33874f5.webp",
     "static/media/Linux_Foundation_logo.webp": "/penguintech/static/media/Linux_Foundation_logo.49918f4f8632ca85baa9.webp",
     "static/media/bash.webp": "/penguintech/static/media/bash.4f2d005239fabb288555.webp",
     "static/media/Yocto_logo.webp": "/penguintech/static/media/Yocto_logo.9b1e1126f353e1db02e4.webp",
     "index.html": "/penguintech/index.html",
-    "main.769f26f6.css.map": "/penguintech/static/css/main.769f26f6.css.map",
-    "main.95549ef7.js.map": "/penguintech/static/js/main.95549ef7.js.map"
+    "main.aad1091b.css.map": "/penguintech/static/css/main.aad1091b.css.map",
+    "main.b55f41d4.js.map": "/penguintech/static/js/main.b55f41d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.769f26f6.css",
-    "static/js/main.95549ef7.js"
+    "static/css/main.aad1091b.css",
+    "static/js/main.b55f41d4.js"
   ]
 }
