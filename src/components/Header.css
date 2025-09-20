@@ -1,39 +1,102 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.Headercontainer {
+  display: flex;
+  flex-direction: column; /* nav comes below */
+}
 
+.topRow {
+  display: flex;
+  justify-content: space-between; /* logo left, socials right */
+  align-items: center;
+}
 
 .logo {
-    display: flex;
-    align-items: center; 
+  display: flex;
+  align-items: center;
 }
 
 .penguin-logo {
-    width: 65px;  /* Adjust size as needed */
-    height: 60px; /* Adjust size as needed */
-    margin-right: 1%;
-    margin-left: 10%;
-    margin-top: 2%;
-
+  width: 65px;
+  height: 60px;
+  margin-right: 10px;
 }
 
+.Headersocialicons {
+  display: flex;
+}
 
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: black;
-    
+.Headersocialicons i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.Headersocialicons i:hover {
+  transform: scale(1.2);;
 }
 
 .navSection {
-    padding-top: 7%;
-    font-weight: bold;
+  margin-top: 15px;
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+  font-weight: bold;
 }
-nav a:hover {
-    color: orange;  /* Color when hovered */
+
+.navSection a {
+  text-decoration: none;
+  color: black;
+}
+
+.navSection a:hover {
+  color: orange;
+}
+
+/* Brand colors */
+.icon-button {
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  width: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  text-align: center;
+  user-select: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+/* Hover grow effect */
+.icon-button:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+/* Brand background colors */
+.youtube {
+  background-color: #FF0000;
+}
+
+.github {
+  background-color: #333;
+}
+
+.linkedin {
+  background-color: #0A66C2;
+}
+
+.google {
+  background-color: #DB4437;
+}
+
+.twitter {
+  background-color: #1DA1F2;
 }
