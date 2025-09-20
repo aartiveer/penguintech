@@ -15,8 +15,17 @@
 }
 
 .vision-img {
-    width: 30%;
+    width: 100%;
     height: 100%;
-    border-radius: 50px;
-    
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 25%;
+  border-top: 1px solid rgba(255, 49, 49, 0.5);
+  border-right: 1px solid rgba(0, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(57, 255, 20, 0.5);
+  border-left: 1px solid rgba(40, 129, 192, 0.5);
 }

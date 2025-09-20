@@ -6,7 +6,9 @@ const VisionSection = () => {
     return (
         <section className="vision">
             <h1>Our Vision</h1>
-            <img src={vision} className="vision-img" alt="Vision" />
+            <div className="imgcontainer" style={{alignItems:"center"}} >
+                <img className="vision-img" src={vision} alt='' />
+            </div>
         </section>
     );
 };
