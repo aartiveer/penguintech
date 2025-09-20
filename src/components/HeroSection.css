@@ -10,15 +10,24 @@
 }
 
 .hero-content {
-  width: 50%;
+  width: 80%;
   height: 100%;
-  padding: 20px;
   background-image: url('../resources/line.jpg');
-  background-size: cover;
+  background-size: 105%;;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: absolute;
+  padding-top: 20%;
+  z-index: 0;
   /*color: #333;8*/
+}
+
+.hero-content h1{
+  font-weight: bold;
+}
+
+.hero-content p{
+  font-weight: bold;
+  font-size: 140%;
 }
 
 .hero-img {

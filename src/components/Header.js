@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
-import penguin from '../resources/penguin.jpg';
+import penguin from '../resources/penguin.png';
 
 const Header = () => {
     const [activeLink, setActiveLink] = useState(null);
@@ -15,7 +15,7 @@ const Header = () => {
 
     return (
         <header className="header">
-            <div className="container flexSB">
+            <div className="container">
                 <div
                     className="logo"
                     style={{
@@ -43,8 +43,7 @@ const Header = () => {
                         </div>
                     </Link>
                 </div>
-
-                <nav className='flexSB'>
+                <nav className='navSection'>
                     <Link to="/">Home</Link>
                     <Link to="/services">Services</Link>
                     <Link to="/trainings">Trainings</Link>
