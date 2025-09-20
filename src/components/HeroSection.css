@@ -1,15 +1,17 @@
 .hero {
+  position: relative; /* Required so absolute shapes position correctly */
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px;
   background-color: #ffffff;
   height: 80vh;
+  overflow: hidden; /* keeps shapes inside */
 }
 
 .hero-content {
   width: 50%;
-  height: 80vh;
+  height: 100%;
   padding: 20px;
   background-image: url('../resources/line.jpg');
   background-size: cover;
@@ -21,7 +23,7 @@
 
 .hero-img {
   width: 60%;
-  height: 80vh;
+  height: auto;
   display: block;
   margin-left: auto;
   z-index: 1;
@@ -37,58 +39,59 @@
   margin-top: 20px;
 }
 
-
-.shape {
-  position: absolute;
-  opacity: 0.5;
-  z-index: 0;
-}
-
-/* Square */
+/* ================= Shapes ================= */
 .square {
-  width: 80px;
-  height: 80px;
-  background: #f4b400;
-  top: 10%;
-  left: 5%;
-  animation: floatSquare 6s infinite ease-in-out;
+  width: 60px;
+  height: 60px;
+  background: royalblue;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  right: 0; /* bottom-right corner */
+  z-index: 0;
+  animation: squareAnim 25s linear alternate infinite;
 }
 
-/* Circle */
 .circle {
   width: 100px;
   height: 100px;
-  background: #4285f4;
   border-radius: 50%;
-  top: 70%;
-  left: 15%;
-  animation: floatCircle 8s infinite linear;
+  background: pink;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  right: 0; /* top-right corner */
+  z-index: 0;
+  animation: circleAnim 25s linear alternate infinite;
 }
 
-/* Rectangle */
 .rectangle {
-  width: 200px;
-  height: 120px;
-  background: #34a853;
-  bottom: 30%;
-  right: 40%;
-  animation: floatRectangle 7s infinite ease-in-out;
+  width: 50px;
+  height: 100px;
+  background: lightgreen;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 0;
+  left: 0; /* bottom-left corner */
+  z-index: 0;
+  animation: rectAnim 25s linear alternate infinite;
 }
 
 /* ================= Animations ================= */
-@keyframes floatSquare {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-30px) rotate(20deg); }
+@keyframes squareAnim {
+  to {
+    transform: translate(-100vw, -100vh); /* moves towards top-left */
+  }
 }
 
-@keyframes floatCircle {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(50px); }
-  100% { transform: translateX(0); }
+@keyframes circleAnim {
+  to {
+    transform: translate(-100vw, 100vh); /* moves towards bottom-left */
+  }
 }
 
-@keyframes floatRectangle {
-  0% { transform: translateY(20) rotate(100deg); }
-  50% { transform: translateY(40px) rotate(180deg); }
-  100% { transform: translateY(10) rotate(60deg); }
+@keyframes rectAnim {
+  to {
+    transform: translate(100vw, -100vh); /* moves towards top-right */
+  }
 }
