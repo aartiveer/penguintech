@@ -52,3 +52,13 @@
   color: #c94f27;
   margin: 0;
 }
+
+.benefit-card:hover {
+  background-color: #FFD95A;
+  color: #000000;
+  cursor: pointer;
+  box-shadow: 0 5px 15px #202020;
+}
+.benefit-card:hover p {
+  color: #000000;
+}
