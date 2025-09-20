@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/penguintech/static/css/main.18ed352c.css",
-    "main.js": "/penguintech/static/js/main.3e9e7d60.js",
+    "main.css": "/penguintech/static/css/main.769f26f6.css",
+    "main.js": "/penguintech/static/js/main.95549ef7.js",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/Women.png": "/penguintech/static/media/Women.d109ac9a8abac1039eaf.png",
     "static/media/ST.png": "/penguintech/static/media/ST.d28fb2840ca5190217f2.png",
@@ -22,11 +22,11 @@
     "static/media/bash.webp": "/penguintech/static/media/bash.4f2d005239fabb288555.webp",
     "static/media/Yocto_logo.webp": "/penguintech/static/media/Yocto_logo.9b1e1126f353e1db02e4.webp",
     "index.html": "/penguintech/index.html",
-    "main.18ed352c.css.map": "/penguintech/static/css/main.18ed352c.css.map",
-    "main.3e9e7d60.js.map": "/penguintech/static/js/main.3e9e7d60.js.map"
+    "main.769f26f6.css.map": "/penguintech/static/css/main.769f26f6.css.map",
+    "main.95549ef7.js.map": "/penguintech/static/js/main.95549ef7.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ed352c.css",
-    "static/js/main.3e9e7d60.js"
+    "static/css/main.769f26f6.css",
+    "static/js/main.95549ef7.js"
   ]
 }
