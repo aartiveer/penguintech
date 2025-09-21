@@ -1,0 +1,74 @@
+/* This file is for individual blogs*/
+.post {
+  position: relative;
+  width: 60%;
+  color: #000000;
+  margin-left: 20%;
+  margin-right: 10%;
+}
+
+.post .post-body {
+padding: 30px;
+font-size: 16px; /* Adjust font size */
+text-align: left;
+background: rgba(255, 255, 255, 0.7);
+text-align: justify;
+}
+.post .post-body img {
+width: 60%;
+height: auto;
+object-fit: cover;
+margin: auto;
+margin-left: 20%;
+}
+
+.post .post-body p{
+  padding: 30px;
+  font-size: 16px; /* Adjust font size */
+  text-align: left;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: justify;
+}
+.post .post-body h2 {
+  text-align: left;
+  margin-left: 28px;
+}
+.post .post-body ul {
+line-height: 30px;
+font-size: 16px;
+}
+.post .post-body ul li {
+  list-style-type: disc; /* Add this line to display bullet points */
+  margin-left: 40px;
+  text-align: left;
+  white-space: normal; /* Allow the content to wrap within the list item */
+  word-wrap: break-word; /* Ensure long words are broken and wrap onto the next line */ /* Enable horizontal scrolling if needed */
+}
+.post .post-body code {
+  font-family: monospace;
+  background-color: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 5px;
+  display: inline-block;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+  .post .post-body code {
+    margin-left: 0; /* Remove left margin for mobile devices */
+    text-wrap: wrap;
+    overflow-x: auto;
+    text-align: left;
+  }
+  .post {
+    width: 100%;
+    margin-left: 0;
+  }
+  .post #heading h1,h3{
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0%;
+  }
+}
