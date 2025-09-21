@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/penguintech/static/css/main.4dd955e6.css",
-    "main.js": "/penguintech/static/js/main.1d5dc71c.js",
+    "main.js": "/penguintech/static/js/main.de7afb3d.js",
     "static/media/test-2.png": "/penguintech/static/media/test-2.a89614e23f471b548d73.png",
     "static/media/line.jpg": "/penguintech/static/media/line.faf2107908fc42354c9c.jpg",
     "static/media/distros.png": "/penguintech/static/media/distros.7a0bde51f1ebc10217b7.png",
@@ -39,10 +39,10 @@
     "static/media/Yocto_logo.webp": "/penguintech/static/media/Yocto_logo.9b1e1126f353e1db02e4.webp",
     "index.html": "/penguintech/index.html",
     "main.4dd955e6.css.map": "/penguintech/static/css/main.4dd955e6.css.map",
-    "main.1d5dc71c.js.map": "/penguintech/static/js/main.1d5dc71c.js.map"
+    "main.de7afb3d.js.map": "/penguintech/static/js/main.de7afb3d.js.map"
   },
   "entrypoints": [
     "static/css/main.4dd955e6.css",
-    "static/js/main.1d5dc71c.js"
+    "static/js/main.de7afb3d.js"
   ]
 }
