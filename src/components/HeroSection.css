@@ -1,31 +1,30 @@
 .hero {
-  position: relative; /* Required so absolute shapes position correctly */
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 40px;
   background-color: #ffffff;
   height: 80vh;
-  overflow: hidden; /* keeps shapes inside */
+  overflow: hidden;
 }
 
 .hero-content {
   width: 80%;
   height: 100%;
   background-image: url('../resources/line.jpg');
-  background-size: 105%;;
+  background-size: 105%;
   background-attachment: fixed;
   position: absolute;
   padding-top: 20%;
   z-index: 0;
-  /*color: #333;8*/
 }
 
-.hero-content h1{
+.hero-content h1 {
   font-weight: bold;
 }
 
-.hero-content p{
+.hero-content p {
   font-weight: bold;
   font-size: 140%;
 }
@@ -33,10 +32,9 @@
 .hero-img {
   width: 60%;
   height: auto;
-  display: block;
   margin-left: auto;
-  z-index: 1;
   margin-right: -5%;
+  z-index: 1;
 }
 
 .btn {
@@ -57,8 +55,7 @@
   opacity: 0.7;
   position: absolute;
   bottom: 0;
-  right: 0; /* bottom-right corner */
-  z-index: 0;
+  right: 0;
   animation: squareAnim 25s linear alternate infinite;
 }
 
@@ -70,8 +67,7 @@
   opacity: 0.7;
   position: absolute;
   top: 0;
-  right: 0; /* top-right corner */
-  z-index: 0;
+  right: 0;
   animation: circleAnim 25s linear alternate infinite;
 }
 
@@ -82,26 +78,60 @@
   opacity: 0.5;
   position: absolute;
   bottom: 0;
-  left: 0; /* bottom-left corner */
-  z-index: 0;
+  left: 0;
   animation: rectAnim 25s linear alternate infinite;
 }
 
 /* ================= Animations ================= */
 @keyframes squareAnim {
-  to {
-    transform: translate(-100vw, -100vh); /* moves towards top-left */
-  }
+  to { transform: translate(-100vw, -100vh); }
 }
-
 @keyframes circleAnim {
-  to {
-    transform: translate(-100vw, 100vh); /* moves towards bottom-left */
-  }
+  to { transform: translate(-100vw, 100vh); }
+}
+@keyframes rectAnim {
+  to { transform: translate(100vw, -100vh); }
 }
 
-@keyframes rectAnim {
-  to {
-    transform: translate(100vw, -100vh); /* moves towards top-right */
+/* ================= Arrows ================= */
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 80px;
+  z-index: 10;
+}
+
+.arrows path {
+  stroke: #000000;
+  fill: transparent;
+  stroke-width: 2px;
+  animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% { opacity: 0; }
+  40% { opacity: 1; }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.arrows path.a1 { animation-delay: -1s; }
+.arrows path.a2 { animation-delay: -0.5s; }
+.arrows path.a3 { animation-delay: 0s; }
+
+/* ================= Responsive ================= */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding-top: 50%;
+    height: 80vh;
+    margin-right: -5%;
+    width: auto;
+  }
+
+  .arrows {
+    display: none; /* hide arrows on mobile */
   }
 }
