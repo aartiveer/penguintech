@@ -1,0 +1,39 @@
+.Testimonial-Container{
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+
+.Testimonial-Container h3 {
+    color: rgb(45, 40, 40);
+}
+
+.TestimonialCards {
+    justify-content: left;
+    display: flex;
+    /* height: 100%;
+    width: 100%; */
+     gap: 2%;
+     margin: 5%;
+}
+
+.TestimonialCards h3 {
+    color: black;
+}
+.TestimonialCards h5 {
+    color: orange;
+}
+
+.ReviewCards {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    height: auto;
+    width: auto;
+    padding: 3%;
+}
+
+.ReviewCards:hover {
+    background-color:rgb(255, 231, 92);
+}

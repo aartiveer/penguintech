@@ -5,6 +5,7 @@ import AboutSection from '../components/AboutSection';
 import ExpertiseSection from '../components/ExpertiseSection';
 import VisionSection from '../components/VisionSection';
 import OurMission from '../components/OurMission';
+import Testimonial from '../components/Testimonial';
 
 
 
@@ -14,7 +15,8 @@ const Home = () => (
         <AboutSection />
         <ExpertiseSection />
         <VisionSection />
-        <OurMission />       
+        <OurMission />
+        <Testimonial />       
     </div>
 );
 

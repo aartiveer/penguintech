@@ -10,7 +10,7 @@ import Trainings from './pages/Trainings';
 import FooterSection from './components/FooterSection';
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/penguintech' : '/';
+  const basename = process.env.NODE_ENV === 'production' ? '/' : '/';
 
   return (
     <Router basename={basename}>
