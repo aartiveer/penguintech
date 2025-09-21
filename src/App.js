@@ -17,7 +17,7 @@ import Post3 from './pages/blog3/Post3';
 import Post4 from './pages/blog4/Post4';
 
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/' : '/';
+  const basename = process.env.PUBLIC_URL || '/';
 
   return (
     <Router basename={basename}>
