@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import './Blogs.css';
 
 import sentry from "../resources/blog/sentry.jpg"
@@ -6,14 +7,13 @@ import pstore from "../resources/blog/pstore.jpg"
 import boot from "../resources/blog/boot.jpg"
 import distro from "../resources/blog/distros.png"
 
-// Sample blog data (you can replace it with your actual blog data)
 const blogs = [
   {
     id: 1,
     title: 'Embedded Linux booting process',
     image: boot,
     description: 'This article will walk you through every step of the process of Embedded Linux booting. This is meant for engineers who are....',
-    link: './pages/blog1/Post1',
+    link: '/blog/1',
   },
   {
     id: 2,
@@ -36,7 +36,6 @@ const blogs = [
     description: 'Linux, a versatile and powerful operating system, has gained immense popularity recently...',
     link: '/blog/4',
   },
-  // Add more blogs here as needed
 ];
 
 const BlogsPage = () => {
@@ -51,7 +50,7 @@ const BlogsPage = () => {
             <div className="blog-content">
               <h2 className="blog-title">{blog.title}</h2>
               <p className="blog-description">{blog.description}</p>
-              <a href={blog.link} className="read-more">Read More</a>
+              <Link to={blog.link} className="read-more">Read More</Link>
             </div>
           </div>
         ))}

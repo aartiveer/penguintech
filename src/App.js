@@ -32,10 +32,10 @@ function App() {
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/Trainings" element={<Trainings />} />
 
-        <Route path="/blog/1" component={Post1} />
-        <Route path="/blog/2" component={Post2} />
-        <Route path="/blog/3" component={Post3} />
-        <Route path="/blog/4" component={Post4} />
+        <Route path="/blog/1" element={<Post1 />} />
+        <Route path="/blog/2" element={<Post2 />} />
+        <Route path="/blog/3" element={<Post3 />} />
+        <Route path="/blog/4" element={<Post4 />} />
         
       </Routes>
 
